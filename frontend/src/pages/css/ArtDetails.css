@@ -1,0 +1,25 @@
+/* src/pages/ArtDetails.css */
+
+.art-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .art-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .art-details h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .art-details p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  

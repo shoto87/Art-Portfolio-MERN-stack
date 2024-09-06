@@ -1,0 +1,34 @@
+.art-gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.art-card {
+  border: 2px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.art-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.art-card:hover {
+  transform: scale(1.05);
+}
+
+.art-card h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
