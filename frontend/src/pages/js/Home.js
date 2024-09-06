@@ -1,12 +1,14 @@
-// src/pages/Home.js
-
+// Home.js
 import React from 'react';
-import '../css/Home.css';
+import ArtForm from '../../components/ArtForm';
+
 
 function Home() {
   return (
-    <div className="home">
+    <div>
       <h1>Welcome to the Art Gallery</h1>
+      <p>Submit your artwork below:</p>
+      <ArtForm />
     </div>
   );
 }

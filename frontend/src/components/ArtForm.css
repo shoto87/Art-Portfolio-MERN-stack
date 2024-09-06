@@ -1,0 +1,75 @@
+/* Styling for the ArtForm component */
+
+.art-form {
+    max-width: 600px;
+    margin: 20px auto; /* Center form and add vertical spacing */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .art-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .art-form input,
+  .art-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .art-form textarea {
+    min-height: 150px;
+    resize: vertical; /* Allows vertical resizing only */
+  }
+  
+  .art-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #7ed957;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .art-form button:hover {
+    background-color: #5bbd45;
+    transform: scale(1.02); /* Slightly scale up the button on hover */
+  }
+  
+  .art-form input::placeholder,
+  .art-form textarea::placeholder {
+    color: #888;
+    opacity: 1; /* Ensure placeholder text is fully visible */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .art-form {
+      padding: 15px;
+    }
+  
+    .art-form input,
+    .art-form textarea,
+    .art-form button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .art-form textarea {
+      min-height: 120px;
+    }
+  }
+  
