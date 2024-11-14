@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ArtForm.css'; // Import the CSS file
+import './ArtForm.css';
 
 function ArtForm() {
   const [title, setTitle] = useState('');
