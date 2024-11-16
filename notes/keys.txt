@@ -25,3 +25,4 @@ function App() {
 
 
 
+MONGODB_URI=mongodb+srv://iampratik70:iampratik70@cluster0.un56s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
